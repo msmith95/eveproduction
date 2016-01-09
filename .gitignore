@@ -1,0 +1,6 @@
+*.sublime-project
+*.sublime-workspace
+sftp-config.json
+Project Documentation.docx
+/backend/
+/testing/

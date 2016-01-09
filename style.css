@@ -1,0 +1,233 @@
+*{
+	color:white;
+}
+button{
+	color:black;
+}
+body{
+	margin:0;
+	margin-top:8px;
+	background-color: #404040;
+}
+div.p{
+	text-align: center;
+}
+.container{
+	margin-top: -7px;
+	display: flex;
+	flex-flow:row;
+	justify-content:space-between;
+	align-content:center;
+	align-items:center;
+	height:66px;
+	border-bottom: 1px solid black;
+}
+li.menu-item{
+	display:inline-block;
+	padding:0;
+	width:8.35em;
+	height:65px;
+	font-size:20px;
+}
+p{
+	margin:0;
+	font-weight: bold;
+}
+.menu-item:hover{
+	background-color:gray;
+}
+.menu, .cssmenu{
+	display:flex;
+	flex-flow:row;
+	list-style-type: none;
+	justify-content:center;
+	align-content:center;
+	align-items:center;
+	height:65px;
+}
+li.menu-item a:link{
+	padding:1px 1px;
+	display:block;
+	text-decoration: none;
+	padding-left:5px;
+	padding-right:5px;
+	text-align: center;	
+	height:65px;
+	display:flex;
+	justify-content:center;
+	align-content:center;
+	align-items:center;
+			
+}
+#bodyContainer{
+	display:flex;
+	justify-content:center;
+	align-content:center;
+	align-items:center;
+	flex-direction:column;
+}
+h1{
+	text-align:center;
+}
+.column{
+	margin:10px;
+}
+#column1{
+	background-color: #17181A;
+	width:85%;
+}
+p#welcomeText{
+	font-size: 18px;
+}
+#indexContent{
+	width:80%;
+}
+#loginContent{
+	display:flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+.center{
+	text-align: center;
+}
+.largerText{
+	font-size:20px;
+}
+#loginBox{
+	padding: 20px;
+	border: 2px solid black;
+}
+#registerBox{
+	padding: 20px;
+	border: 2px solid black;
+}
+li.store-item{
+	list-style-type: none;
+}
+input{
+	color:black;
+}
+#marketGroups{
+	width:80%;
+}
+#marketGroups, .subdisplay{
+	list-style-type: none;
+}
+.itemLink{
+	cursor:default;
+	padding:3px;
+}
+.groupLink{
+	cursor:pointer;
+	padding: 5px;
+}
+.border{
+	background-color: #334045;
+	border: 2px solid #566C73;
+}
+.otherBorders{
+	/*border-top: 2px solid lightgrey;*/
+	border-bottom:2px solid lightgrey;
+}
+.marketgroupdiv{
+	display:flex;
+	align-content: center;
+	align-items: center;
+	justify-content:center;
+
+}
+#saveButton{
+	text-align:center;
+}
+#buttonContainer{
+	display:flex;
+	align-content: center;
+	align-items: center;
+	justify-content:flex-end;
+}
+div.added{
+    width:200px;
+    height:20px;
+    height:auto;
+    position:absolute;
+    left:50%;
+    margin-left:-100px;
+    bottom:10px;
+    background-color: #888888;
+    color: #C00000;
+    font-family: Calibri;
+    font-size: 20px;
+    padding:10px;
+    text-align:center;
+    border-radius: 2px;
+    -webkit-box-shadow: 0px 0px 24px -1px rgba(56, 56, 56, 1);
+    -moz-box-shadow: 0px 0px 24px -1px rgba(56, 56, 56, 1);
+    box-shadow: 0px 0px 24px -1px rgba(56, 56, 56, 1);
+}
+#cart{
+	width:70%;
+}
+#tableWrapper{
+	display:flex;
+	align-content: center;
+	align-items: center;
+	justify-content:center;
+	flex-flow:column;
+
+}
+#order, #orderItems{
+	border-collapse: collapse;
+	width: 100%;
+}
+td, th{
+	border: 1px solid black;
+	text-align: center;
+	font-size:18px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+th{
+	font-size: 20px;
+}
+.right{
+	margin-left: 20px;
+}
+#confirmKick{
+	display:none;
+}
+#members{
+	color:black;
+}
+.marketgroupmain{
+	width:60%;
+}
+.boldTd{
+	font-weight: bold;
+}
+#rejectionContent{
+	display:flex;
+	justify-content:center;
+}
+.darkgrey{
+	background-color: darkgrey;
+}
+.storeCreation{
+	width:80%;
+	display:flex;
+	align-content: center;
+	align-items: center;
+	justify-content:center;
+	flex-flow:column;
+}
+#managePerms{
+	display:flex;
+	align-content: center;
+	align-items: center;
+	justify-content:center;
+	flex-flow:column;
+}
+div{
+	color:black;
+}
